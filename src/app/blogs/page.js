@@ -11,8 +11,7 @@ async function fetchListOfBlogs() {
 
     return result?.data;
   } catch (error) {
-    return
-    // throw new Error(error);
+    throw new Error(error);
   }
 }
 
